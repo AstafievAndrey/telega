@@ -1,7 +1,7 @@
 .list {
   list-style-type: none;
 
-  li {
+  .item {
     cursor: pointer;
     border: 1px solid whitesmoke;
     background: var(--gray1);
