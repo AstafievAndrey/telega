@@ -22,8 +22,6 @@ body {
 body {
   width: 100%;
   height: var(--tg-viewport-stable-height);
-  overflow: hidden;
-  position: fixed;
 
   color: var(--white);
   font-family: Helvetica, sans-serif;
