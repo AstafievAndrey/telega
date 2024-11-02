@@ -21,14 +21,18 @@ body {
 }
 
 body {
+  width: 100%;
+  height: var(--tg-viewport-height);
+  overflow: hidden;
+  position: fixed;
+
   color: var(--white);
   font-family: Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--black);
-  background-image: url("/background.svg");
-  background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background: url("/background.svg") var(--black);
+
+  background-size: cover;
   padding: var(--padding);
 }
 
