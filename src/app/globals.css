@@ -17,7 +17,7 @@ body {
   max-width: 100vw;
   font-size: 14px;
   overflow-x: hidden;
-  background: var(--black);
+  height: 100%;
 }
 
 body {
@@ -25,6 +25,11 @@ body {
   font-family: Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--black);
+  background-image: url("/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: var(--padding);
 }
 
 * {
